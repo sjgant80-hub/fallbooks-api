@@ -1,0 +1,10 @@
+services:
+  fallbooks-api:
+    build: .
+    image: ai-native-solutions/fallbooks-api:1.0.0
+    ports:
+      - "3000:3000"
+    environment:
+      PORT: 3000
+      CORS_ORIGIN: "*"
+    restart: unless-stopped

@@ -1,0 +1,25 @@
+{
+  "name": "@ai-native-solutions/fallbooks-api",
+  "version": "1.0.0",
+  "description": "HTTP API for fallbooks UK accountancy engine · Express · Docker-ready",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "files": ["src", "README.md", "LICENSE", "Dockerfile", "docker-compose.yml"],
+  "keywords": ["uk-tax", "accountancy", "express", "http-api", "vat", "sa100", "ct600", "hmrc"],
+  "author": "AI-Native Solutions",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sjgant80-hub/fallbooks-api.git"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "@ai-native-solutions/fallbooks-sdk": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
